@@ -1,0 +1,151 @@
+
+* {
+    margin: 0;
+    padding: 0;
+}
+body{
+    width: 100%;
+     background-image: url("https://i.pinimg.com/originals/0a/4d/cb/0a4dcb92fa2d3c601b58d72720d6bec4.jpg");
+    height: 100%;
+    margin: 0;
+    background-repeat: no-repeat;
+    background-position:center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.card{display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    margin: auto;
+    padding: 20px;
+    background-color: transparent;
+}
+ .card-title{
+     text-align: center;
+}
+.card-img-top{
+    width: 376px;
+    height: 376px;
+}
+.meio{
+    text-align: center;
+}
+
+#login{
+
+    background-position: center;
+    background-color: rgba(0, 0, 0, 0.138);
+
+
+}
+
+
+
+
+
+
+
+
+/* /*
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    margin: auto;
+}
+
+h3{
+    padding: 120px;
+    box-sizing: border-box;
+    background-color:transparent;
+    image-rendering: fixed;
+}
+
+
+
+.container {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+}
+
+.genesis {
+    color: black;
+    background-color: yellow;
+
+
+    height: 40px;
+
+    width: 100%;
+    overflow: hidden;
+    border: 4px;
+    border-color: rgb(245, 245, 73);
+    border-style:solid;
+}
+
+.grid {
+    display: grid;
+}
+
+.item1 {
+    margin: 5px;
+    background: transparent;
+    text-align: center;
+
+    font-size: 1.5em;
+}
+.item2 {
+    margin: 0px;
+    background: transparent;
+    text-align: center;
+    /* font-size: 1.5em;
+}
+ .item3 {
+    margin: 0px;
+    background: transparent;
+    text-align: center;
+    /* font-size: 1.5em;
+}
+#avisos  {
+    text-align: CENTER;
+    height: 200px;
+    width: 200px;
+    background-image: url("./logo-removebg-preview.png");
+    background-size: 200px 200px;
+    color: rgb(0, 0, 0);
+    font-size: 15px;
+
+}
+#notas{
+    text-align: CENTER;
+    color: rgb(0, 0, 0);
+    font-size: 15px;
+
+}
+#EBD{
+
+    height: 625px;
+    width: 500px;
+}
+
+#sss{
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
