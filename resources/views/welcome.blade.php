@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -195,6 +195,17 @@
         <span class="visually-hidden">Next</span>
     </button>
 </div>
+<div class="reserva-de-lugar">
+    <h2> Reserva de lugar </h2>
+    <p>Quantidade de cadeiras disponíveis </p>
+    <div class="cadeiras-vazias">
+    <h1>25</h1>
+    <form>
+        <input type="text" placeholder="Nome">
+        <button type="submit">Marcar </button>
+    </form>
+    </div >
+</div>
 <div class="row row-cols-1 row-cols-md-3 g-4">
     <div class="col">
         <div class="card bg-white h-100">
@@ -207,13 +218,75 @@
                     Provérbios 4:2.</p>
             </div>
             <div class="card-footer">
-                <small class="meio" onclick="doutrina()" class="text-muted">Acessar</small>
+            <a class="nav-link active meio " data-bs-toggle="modal" data-bs-target="#doutrina">
+                   acessar
+                </a>
+               
             </div>
         </div>
     </div>
+    <div id="doutrina" class="modal" tabindex="-1">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h1 > Doutrina</h1>
+                <p>In ancient Rome, there was the habit of celebrating the birthday of a person.
+                     There weren’t parties like we know today, but cakes were prepared and offers were made.
+                      Then, the habits of wishing happy birthday, giving gifts and lighting candles became popular
+                       as a way to protect the birthday person from devils and ensure good things to the next year
+                        in the person’s life. The celebrations only became popular like we know today after fourteen
+                         centuries, in a collective festival performed in Germany.</p>
+
+            </div>
+            <div class="modal-body">
+                <textarea class="form-control" id="avisos" rows="3"
+                          disabled> xxxx</textarea>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">fechar</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     <div class="col">
         <div class="card bg-white h-100">
-            <img id="sss" src="/assets/imagem-ceia.jpg" class="card-img-top" class="card-img-top" alt="...">
+            <img  src="/assets/imagem-ceia.jpg" class="card-img-top" class="card-img-top" alt="...">
             <div class="card-body">
                 <h5 class="card-title">Culto De Santa Ceia</h5>
                 <p class="card-text"> "Desejei ansiosamente comer esta Páscoa com vocês antes de sofrer. Pois eu digo:
@@ -221,14 +294,14 @@
                     Lucas 22:14-16</p>
             </div>
             <div class="card-footer">
-                <small class="meio" onclick="santaceia()" class="text-muted">Acessar</small>
+                <small class="meio" onclick="santaceia()" >Acessar</small>
             </div>
         </div>
     </div>
     <div class="col">
         <div class="card bg-white h-100">
-            <img id="sss"
-                 src="https://scontent-for1-1.cdninstagram.com/v/t51.2885-15/e35/93794406_2982641671758587_4233241954461141753_n.jpg?tp=1&_nc_ht=scontent-for1-1.cdninstagram.com&_nc_cat=111&_nc_ohc=ItrrAxt56q8AX86rRVN&ccb=7-4&oh=6c4bfa304390a4f44c4cc2925b3def44&oe=60814004&_nc_sid=4f375e"
+            <img 
+                 src="https://4.bp.blogspot.com/-grtEQyzdrTM/W9R0fOd3d9I/AAAAAAAABKc/zJIgyy9ofZoVZagQtfhWOwUtPJ2iA4BXwCLcBGAs/s1600/CS-JORD%25C3%2583O.jpg"
                  class="card-img-top" class="card-img-top" alt="...">
             <div class="card-body">
                 <h5 class="card-title">Culto De Senhora</h5>
@@ -236,7 +309,7 @@
                     segurança. Deleite-se no Senhor, e ele atenderá aos desejos do seu coração”. Salmos 37:3,4 –</p>
             </div>
             <div class="card-footer">
-                <small class="meio" onclick="senhoras()" class="text-muted">Acessar</small>
+                <small class="meio" onclick="senhoras()" >Acessar</small>
             </div>
         </div>
     </div>
@@ -244,7 +317,7 @@
 <div class="row row-cols-1 row-cols-md-3 g-4">
     <div class="col">
         <div class="card bg-white h-100">
-            <img id="sss" src="https://www.admmembros.com.br/uploads/site/blog/chamadas/ebd/ebd-participe.jpg"
+            <img  src="https://www.admmembros.com.br/uploads/site/blog/chamadas/ebd/ebd-participe.jpg"
                  class="card-img-top" alt="...">
             <div class="card-body">
                 <h5 class="card-title">Escola Biblica Dominical</h5>
@@ -252,27 +325,27 @@
                     da maneira como Ele viveu (1 Jo 2:6).</p>
             </div>
             <div class="card-footer">
-                <small class="meio" onclick="ebd()" class="text-muted()">Acessar</small>
+                <small class="meio" onclick="ebd()" >Acessar</small>
             </div>
         </div>
     </div>
     <div class="col">
         <div class="card bg-white h-100">
-            <img id="sss" src="{{ asset('/assets/imagem-missoes.jpg') }}" class="card-img-top" alt="...">
+            <img  src="{{ asset('/assets/imagem-missoes.jpg') }}" class="card-img-top" alt="...">
             <div class="card-body">
                 <h5 class="card-title">Missões</h5>
                 <p class="card-text">Hoje, queremos te encontrar para cultuarmos juntos ao Senhor em seu Santo
                     Templo.</p>
             </div>
             <div class="card-footer">
-                <small class="meio" onclick="missoes()" class="text-muted">Acessar</small>
+                <small class="meio" onclick="missoes()" >Acessar</small>
             </div>
         </div>
     </div>
     <div class="col">
         <div class="card bg-white h-100">
-            <img id="sss"
-                 src="https://scontent-for1-1.cdninstagram.com/v/t51.2885-15/e35/s1080x1080/97367534_3166426116730492_7999848383068461090_n.jpg?tp=1&_nc_ht=scontent-for1-1.cdninstagram.com&_nc_cat=104&_nc_ohc=wN7_AEk8LkIAX_XJc9G&ccb=7-4&oh=7b15a5dade98cc472d4a15530a85ffe1&oe=60843611&_nc_sid=4f375e"
+            <img 
+                 src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSRDNarh08a4pxv1OF77iUBHqZp5iMsG1L8A9xEYZBmIuuclJ0Pbozc33wCM3w33ZwNKRw&usqp=CAU"
                  class="card-img-top" alt="...">
             <div class="card-body">
                 <h5 class="card-title">Culto Juv</h5>
@@ -280,7 +353,7 @@
                     toda a terra para fortalecer aqueles que lhe dedicam totalmente o coração.</p>
             </div>
             <div class="card-footer">
-                <small class="meio" onclick="juv()" class="text-muted">Acessar</small>
+                <small class="meio" onclick="juv()" >Acessar</small>
             </div>
         </div>
     </div>
@@ -324,9 +397,21 @@
                         {{ __('Logout') }}
                     </a>
                 @endguest
+            <div id="twitch-embed"></div>
+                <script src="https://embed.twitch.tv/embed/v1.js"></script>
+                <script type="text/javascript">
+                    new Twitch.Embed("twitch-embed", {
+                        width: 854,
+                        height: 480,
+                        channel: "relaxbeats",
+                        parent: ["embed.example.com", "othersite.example.com"]
+                    });
+                </script>
             </div>
         </div>
     </div>
 </footer>
+ 
+
 </body>
 </html>

@@ -2,6 +2,7 @@
 * {
     margin: 0;
     padding: 0;
+ 
 }
 body{
     width: 100%;
@@ -12,8 +13,11 @@ body{
     background-position:center;
     background-size: cover;
     background-attachment: fixed;
+    
+    
 }
-.card{display: flex;
+.card{
+    display: flex;
     align-items: center;
     justify-content: space-between;
     width: 100%;
@@ -33,11 +37,8 @@ body{
 }
 
 
-/* footer{
-    width: 100vw;
-    height: auto;
-    background-color: black;
-} */
+
+
 .footer-develup{
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -104,6 +105,136 @@ body{
         color: rgb(0, 0, 0);
     }
 }
+.reserva-de-lugar{
+    width: 100vw;
+    height:30vh;
+    font-size:10px;
+}
+.reserva-de-lugar h2{
+    text-align:center;
+    margin-top:20px;
+}
+.reserva-de-lugar p{
+    margin-left:15px;
+    font-size:2.0em;
+}
+.reserva-de-lugar h1{
+    font-size:8.4em;
+    padding-bottom:20px;
+    margin-left:100px;
+    grid-column-start:1;
+}
+.cadeiras-vazias{
+    display:grid; 
+    grid-template-columns:1fr 1fr 1fr;
+    
+}
+.reserva-de-lugar form{
+    text-align:center;
+}
+.reserva-de-lugar form input{
+    height:30px;
+    width:25vw;
+}
+.reserva-de-lugar form button{
+    height:30px;
+    width:50px;
+}
+.reserva-de-lugar{
+    width: 100vw;
+    height:30vh;
+    font-size:10px;
+}
+.reserva-de-lugar h2{
+    text-align:center;
+    margin-top:20px;
+}
+.reserva-de-lugar p{
+    margin-left:15px;
+    font-size:2.0em;
+}
+.reserva-de-lugar h1{
+    font-size:8.4em;
+    padding-bottom:20px;
+    margin-left:100px;
+    grid-column-start:1;
+}
+.cadeiras-vazias{
+    display:grid; 
+    grid-template-columns:1fr 1fr 1fr;
+    
+}
+.reserva-de-lugar form{
+    text-align:center;
+}
+.reserva-de-lugar form input{
+    height:30px;
+    width:25vw;
+}
+.reserva-de-lugar form button{
+    height:30px;
+    width:50px;
+}
+@media(max-width:1073px){
+.reserva-de-lugar{
+    width: 100vw;
+    height:40vh;
+    font-size:10px;
+}
+.cadeiras-vazias{
+    display:grid; 
+    grid-template-columns:1fr ;
+    
+}
+.reserva-de-lugar form input{
+    height:30px;
+    width:50vw;
+    align-items:center;
+ 
+    
+}
+.reserva-de-lugar h1{
+    font-size:8.4em;
+    padding-bottom:20px;
+    align-items:center;
+    padding-left:20px;
+}
+}
+
+
+
+.meio{
+    cursor: pointer;
+}
+
+@media(max-width:1073px){
+.reserva-de-lugar{
+    width: 100vw;
+    height:40vh;
+    font-size:10px;
+}
+.cadeiras-vazias{
+    display:grid; 
+    grid-template-columns:1fr ;
+    
+}
+.reserva-de-lugar form input{
+    height:30px;
+    width:50vw;
+    align-items:center;
+ 
+    
+}
+.reserva-de-lugar h1{
+    font-size:8.4em;
+    padding-bottom:20px;
+    align-items:center;
+    padding-left:20px;
+}
+
+}
+
+
 
 @media(max-width: 827px){
     .footer-login-usuario{
