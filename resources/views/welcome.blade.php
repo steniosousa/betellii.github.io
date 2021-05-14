@@ -170,7 +170,7 @@
       <div  class="row row-cols-1 row-cols-md-3 g-4">
         <div class="col">
           <div class="card h-100">
-            <img id="sss" src="https://scontent-for1-1.cdninstagram.com/v/t51.2885-15/e35/s1080x1080/118355600_153409029781701_4989230125075194875_n.jpg?tp=1&_nc_ht=scontent-for1-1.cdninstagram.com&_nc_cat=109&_nc_ohc=lNIHAb4VkY8AX-kMfB5&ccb=7-4&oh=1e41eaf496bb662bdd22e4bbc0717442&oe=60811204&_nc_sid=4f375e"" class="card-img-top" alt="...">
+            <img id="sss" src="/assets/imagem-doutrina.jpg" class="card-img-top" alt="...">
             <div class="card-body">
               <h5 class="card-title">Culto De Doutrina</h5>
               <p class="card-text">O ensino que ofereço a vocês é bom;
@@ -185,7 +185,7 @@
         </div>
         <div class="col">
           <div class="card h-100">
-            <img id="sss" src="https://scontent-for1-1.cdninstagram.com/v/t51.2885-15/e35/s1080x1080/106134957_1001839410219188_4293219462096834388_n.jpg?tp=1&_nc_ht=scontent-for1-1.cdninstagram.com&_nc_cat=108&_nc_ohc=0po5Qsrm4LAAX_KtRSy&ccb=7-4&oh=bf9a99c46851b77ce267b3578c59f077&oe=6082B32E&_nc_sid=83d603" class="card-img-top" class="card-img-top" alt="...">
+            <img id="sss" src="/assets/imagem-ceia.jpg" class="card-img-top" class="card-img-top" alt="...">
             <div class="card-body">
               <h5 class="card-title">Culto De Santa Ceia</h5>
               <p class="card-text"> "Desejei ansiosamente comer esta Páscoa com vocês antes de sofrer. Pois eu digo: Não comerei dela novamente até que se cumpra no Reino de Deus".
@@ -215,7 +215,7 @@
             <img id="sss" src="https://www.admmembros.com.br/uploads/site/blog/chamadas/ebd/ebd-participe.jpg" class="card-img-top" alt="...">
             <div class="card-body">
               <h5 class="card-title">Escola Biblica Dominical</h5>
-              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+              <p class="card-text">Discípulo é aquele que estuda e segue os mandamentos do Mestre, Jesus, e que vive da maneira como Ele viveu (1 Jo 2:6).</p>
             </div>
             <div class="card-footer">
               <small class="meio"onclick="ebd()"class="text-muted()">Acessar</small>
@@ -224,10 +224,10 @@
         </div>
         <div class="col">
           <div class="card h-100">
-            <img id="sss" src="https://scontent-for1-1.cdninstagram.com/v/t51.2885-15/e35/93402320_591895381671355_4493211384462589372_n.jpg?tp=1&_nc_ht=scontent-for1-1.cdninstagram.com&_nc_cat=107&_nc_ohc=5LTQ7TPl8dwAX9gSjYs&ccb=7-4&oh=c28ad23d67130ed6a3872812bac4a121&oe=6083E3F2&_nc_sid=4f375e"  class="card-img-top" alt="...">
+            <img id="sss" src="/assets/imagem-missoes.jpg"   class="card-img-top" alt="...">
             <div class="card-body">
               <h5 class="card-title">Missões</h5>
-              <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+              <p class="card-text">Hoje, queremos te encontrar para cultuarmos juntos ao Senhor em seu Santo Templo.</p>
             </div>
             <div class="card-footer">
               <small class="meio"onclick="missoes()" class="text-muted">Acessar</small>
@@ -239,7 +239,7 @@
             <img id="sss" src="https://scontent-for1-1.cdninstagram.com/v/t51.2885-15/e35/s1080x1080/97367534_3166426116730492_7999848383068461090_n.jpg?tp=1&_nc_ht=scontent-for1-1.cdninstagram.com&_nc_cat=104&_nc_ohc=wN7_AEk8LkIAX_XJc9G&ccb=7-4&oh=7b15a5dade98cc472d4a15530a85ffe1&oe=60843611&_nc_sid=4f375e" class="card-img-top" alt="...">
             <div class="card-body">
               <h5 class="card-title">Culto Juv</h5>
-              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+              <p class="card-text">Ele não os deixará, nem abandonará. Pois os olhos do Senhor estão atentos sobre toda a terra para fortalecer aqueles que lhe dedicam totalmente o coração.</p>
             </div>
             <div class="card-footer">
               <small class="meio"onclick="juv()"class="text-muted">Acessar</small>
@@ -251,14 +251,14 @@
 <footer>
 <div class="footer-develup">
   <div class="footer-develup-siga-nos">
-    <img src="/assets/logo.jpeg"></img>
+   <a href="www.develupdesenvolvimento@gmail.com"> <img src="/assets/logo.jpeg"></img></a>
     <p> Desenvolvido por Develup Desenvolvimento.</p>
     <h3> Siga-nós </h3>
       <span>
-        <img src="/assets/logo.jpeg"></img>
-        <img src="/assets/logo.jpeg"></img>
-        <img src="/assets/logo.jpeg"></img>
-        <img src="/assets/logo.jpeg"></img>
+        <a href="https://www.instagram.com/develup_desenvolvimento/"><img  src="{{asset('assets/icons/instagram.svg')}}"></img></a>
+        <a href="#"><img src="{{asset('assets/icons/email.svg')}}"></img></a>
+        <a href="#"><img src="{{asset('assets/icons/whatsapp.svg')}}"></img></a>
+        <a href="#"><img src="{{asset('assets/icons/facebook.svg')}}"></img></a>
       </span>
       <div class="btn bg-white" id="login-develup">
     @guest
