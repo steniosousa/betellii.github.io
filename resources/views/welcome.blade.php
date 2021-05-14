@@ -88,25 +88,15 @@
               <li class="nav-item">
                 <a button onclick="coronavirus()" class="nav-link active" aria-current="page" href="#">Coronavírus</a>
               </li>
-
-              
-
-
             <form id="logout-form" action="{{ route('logout') }}" method="POST" class="d-none">
                 @csrf
             </form>
-
-
               <a class="nav-link active" data-bs-toggle="modal" data-bs-target="#vdc">
                 avisos
                </a>
-
-
               <a class="nav-link active" data-bs-toggle="modal" data-bs-target="#sobre">
                sobre a igreja
               </a>
-
-
               <li class="nav-item">
                 <a class="nav-link" href="#"></a>
               </li>
@@ -149,22 +139,22 @@
         <div class="carousel-item active">
           <img src="https://images.unsplash.com/photo-1510590337019-5ef8d3d32116?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80" class="d-block w-100" alt="...">
           <div class="carousel-caption d-none d-md-block">
-            <h5>First slide label</h5>
-            <p>Some representative placeholder content for the first slide.</p>
+            <h5>1 joao 2:6</h5>
+            <p>Aquele que afirma que permanece nEle, deve andar como Ele andou.</p>
           </div>
         </div>
         <div class="carousel-item">
           <img  src="https://images.unsplash.com/photo-1614607421391-8d1228bae188?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1051&q=80" class="d-block w-100" alt="...">
           <div class="carousel-caption d-none d-md-block">
-            <h5>Second slide label</h5>
-            <p>Some representative placeholder content for the second slide.</p>
+            <h5>Eclesiastes 9:11</h5>
+            <p>Os velozes nem sempre vencem a corrida;</p>
           </div>
         </div>
         <div class="carousel-item">
           <img src="https://images.unsplash.com/photo-1607641722994-27557903d9de?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80" class="d-block w-100" alt="...">
           <div class="carousel-caption d-none d-md-block">
-            <h5>Third slide label</h5>
-            <p>Some representative placeholder content for the third slide.</p>
+            <h5>João 9:5</h5>
+            <p>Enquanto estou no mundo, sou a luz do mundo.</p>
           </div>
         </div>
       </div>
