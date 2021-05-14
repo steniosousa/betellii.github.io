@@ -16,12 +16,6 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('welcome');
 });
-Route::get('/doutrina', function () {
-    return view('doutrina');
-});
-Route::get('/doutrina/cadastro', function () {
-    return view('cadastro');
-});
 
 Auth::routes();
 

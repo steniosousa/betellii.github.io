@@ -1,0 +1,39 @@
+
+* {
+    margin: 0;
+    padding: 0;
+}
+body{
+    width: 100%;
+    background-image: url("https://i.pinimg.com/originals/0a/4d/cb/0a4dcb92fa2d3c601b58d72720d6bec4.jpg");
+    height: 100%;
+    margin: 0;
+    background-repeat: no-repeat;
+    background-position:center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.card{display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    margin: auto;
+    padding: 20px;
+    background-color: transparent;
+}
+.card-title{
+    text-align: center;
+}
+.card-img-top{
+    width: 376px;
+    height: 376px;
+}
+.meio{
+    text-align: center;
+}
+
+#login{
+    background-position: center;
+    background-color: rgba(0, 0, 0, 0.138);
+}
+
