@@ -5,7 +5,7 @@
 }
 body{
     width: 100%;
-    background-image: url("https://i.pinimg.com/originals/0a/4d/cb/0a4dcb92fa2d3c601b58d72720d6bec4.jpg");
+    background: linear-gradient(177deg, rgba(238,174,202,1) 0%, rgba(0,69,245,1) 100%);
     height: 100%;
     margin: 0;
     background-repeat: no-repeat;
@@ -21,8 +21,8 @@ body{
     padding: 20px;
     background-color: transparent;
 }
-.card-title{
-    text-align: center;
+ .card-title{
+     text-align: center;
 }
 .card-img-top{
     width: 376px;
@@ -32,8 +32,91 @@ body{
     text-align: center;
 }
 
-#login{
-    background-position: center;
-    background-color: rgba(0, 0, 0, 0.138);
+
+/* footer{
+    width: 100vw;
+    height: auto;
+    background-color: black;
+} */
+.footer-develup{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: 300px;
+    width: 80%;
+    margin-left: 10%;
+}
+.footer-develup-siga-nos{
+    grid-column-start: 1;
+    text-align: center;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(128, 128, 128, 0.267);
+    border-radius: 50px;
+    border: 1px solid black;
+    margin-top: 50px;
+}
+.footer-develup-siga-nos img{
+    height:250px;
+    width: 250px;
+    border-radius: 50px; 
+    margin-top: 10px;
+    
+}
+.footer-develup-siga-nos p{
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+
+}
+.footer-develup-siga-nos span{
+    display: flex;
+   justify-content: center;
+    width: 100%;
+
+}
+.footer-develup-siga-nos span img{
+    height: 50px;
+    width: 50px;
+    margin-left: 15px;
+  
+}
+.footer-login-usuario{
+    grid-column-start: 2;
+    text-align: center;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(128, 128, 128, 0.267);
+    border-radius: 50px;
+    border: 1px solid black;
+    margin-top: 50px;
+}
+#login a{
+    background-color: transparent;
+    color: rgb(0, 0, 0);
+    border-bottom:1px solid black;
 }
 
+
+#login-develup{
+    margin-top: 20px;
+
+}
+#login-develup a{
+    background-color: transparent;
+    color: rgb(0, 0, 0);
+  
+
+}
+@media(max-width: 827px){
+    .footer-login-usuario{
+        display: none;
+    }
+    .footer-develup{
+        display: grid;
+        grid-template-columns:  1fr;
+    }
+}
+@media(min-width: 827px){
+    #login-develup{
+        display:none;
+    }
+}

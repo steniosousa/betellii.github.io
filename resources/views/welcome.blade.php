@@ -8,14 +8,17 @@
     <link rel="shortcut icon" href="https://images.pexels.com/photos/36717/amazing-animal-beautiful-beautifull.jpg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" > <!-- link -->
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Cormorant+Unicase:wght@300&family=Tangerine&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap" rel="stylesheet">
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
     <link href="{{ asset('css/welcome.css') }}" rel="stylesheet">
 
     <script src="{{ asset('/js/app.js') }}"></script>
     <script src="{{ asset('/js/welcome.js') }}"></script>
-
-</head>
+  </head>
 <body>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
+    <!-- <script src="../css/home.css"></script> -->
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <body>
     <div id="rod" class="modal" tabindex="-1">
@@ -86,19 +89,7 @@
                 <a button onclick="coronavirus()" class="nav-link active" aria-current="page" href="#">Coronavírus</a>
               </li>
 
-              <li>
-                  <div  id="login">
-                @guest
-                    <a class="nav-link active" href="/login">Login</a>
-                @else
-                    <a class="nav-link active" href="{{ route('logout') }}"
-                        onclick="event.preventDefault();
-                                        document.getElementById('logout-form').submit();">
-                        {{ __('Logout') }}
-                    </a>
-                @endguest
-</div>
-            </li>
+              
 
 
             <form id="logout-form" action="{{ route('logout') }}" method="POST" class="d-none">
@@ -188,7 +179,7 @@
     </div>
       <div  class="row row-cols-1 row-cols-md-3 g-4">
         <div class="col">
-          <div class="card bg-white h-100">
+          <div class="card h-100">
             <img id="sss" src="https://scontent-for1-1.cdninstagram.com/v/t51.2885-15/e35/s1080x1080/118355600_153409029781701_4989230125075194875_n.jpg?tp=1&_nc_ht=scontent-for1-1.cdninstagram.com&_nc_cat=109&_nc_ohc=lNIHAb4VkY8AX-kMfB5&ccb=7-4&oh=1e41eaf496bb662bdd22e4bbc0717442&oe=60811204&_nc_sid=4f375e"" class="card-img-top" alt="...">
             <div class="card-body">
               <h5 class="card-title">Culto De Doutrina</h5>
@@ -203,7 +194,7 @@
           </div>
         </div>
         <div class="col">
-          <div class="card bg-white h-100">
+          <div class="card h-100">
             <img id="sss" src="https://scontent-for1-1.cdninstagram.com/v/t51.2885-15/e35/s1080x1080/106134957_1001839410219188_4293219462096834388_n.jpg?tp=1&_nc_ht=scontent-for1-1.cdninstagram.com&_nc_cat=108&_nc_ohc=0po5Qsrm4LAAX_KtRSy&ccb=7-4&oh=bf9a99c46851b77ce267b3578c59f077&oe=6082B32E&_nc_sid=83d603" class="card-img-top" class="card-img-top" alt="...">
             <div class="card-body">
               <h5 class="card-title">Culto De Santa Ceia</h5>
@@ -216,7 +207,7 @@
           </div>
         </div>
         <div class="col">
-          <div class="card bg-white h-100">
+          <div class="card h-100">
             <img id="sss"src="https://scontent-for1-1.cdninstagram.com/v/t51.2885-15/e35/93794406_2982641671758587_4233241954461141753_n.jpg?tp=1&_nc_ht=scontent-for1-1.cdninstagram.com&_nc_cat=111&_nc_ohc=ItrrAxt56q8AX86rRVN&ccb=7-4&oh=6c4bfa304390a4f44c4cc2925b3def44&oe=60814004&_nc_sid=4f375e" class="card-img-top" class="card-img-top" alt="...">
             <div class="card-body">
               <h5 class="card-title">Culto De Senhora</h5>
@@ -230,7 +221,7 @@
       </div>
       <div class="row row-cols-1 row-cols-md-3 g-4">
         <div class="col">
-          <div class="card bg-white h-100">
+          <div class="card h-100">
             <img id="sss" src="https://www.admmembros.com.br/uploads/site/blog/chamadas/ebd/ebd-participe.jpg" class="card-img-top" alt="...">
             <div class="card-body">
               <h5 class="card-title">Escola Biblica Dominical</h5>
@@ -242,7 +233,7 @@
           </div>
         </div>
         <div class="col">
-          <div class="card bg-white h-100">
+          <div class="card h-100">
             <img id="sss" src="https://scontent-for1-1.cdninstagram.com/v/t51.2885-15/e35/93402320_591895381671355_4493211384462589372_n.jpg?tp=1&_nc_ht=scontent-for1-1.cdninstagram.com&_nc_cat=107&_nc_ohc=5LTQ7TPl8dwAX9gSjYs&ccb=7-4&oh=c28ad23d67130ed6a3872812bac4a121&oe=6083E3F2&_nc_sid=4f375e"  class="card-img-top" alt="...">
             <div class="card-body">
               <h5 class="card-title">Missões</h5>
@@ -254,7 +245,7 @@
           </div>
         </div>
         <div class="col">
-          <div class="card bg-white h-100">
+          <div class="card h-100">
             <img id="sss" src="https://scontent-for1-1.cdninstagram.com/v/t51.2885-15/e35/s1080x1080/97367534_3166426116730492_7999848383068461090_n.jpg?tp=1&_nc_ht=scontent-for1-1.cdninstagram.com&_nc_cat=104&_nc_ohc=wN7_AEk8LkIAX_XJc9G&ccb=7-4&oh=7b15a5dade98cc472d4a15530a85ffe1&oe=60843611&_nc_sid=4f375e" class="card-img-top" alt="...">
             <div class="card-body">
               <h5 class="card-title">Culto Juv</h5>
@@ -267,13 +258,48 @@
         </div>
       </div>
 </main>
+<footer>
+<div class="footer-develup">
+  <div class="footer-develup-siga-nos">
+    <img src="/assets/logo.jpeg"></img>
+    <p> Desenvolvido por Develup Desenvolvimento.</p>
+    <h3> Siga-nós </h3>
+      <span>
+        <img src="/assets/logo.jpeg"></img>
+        <img src="/assets/logo.jpeg"></img>
+        <img src="/assets/logo.jpeg"></img>
+        <img src="/assets/logo.jpeg"></img>
+      </span>
+      <div class="btn bg-white" id="login-develup">
+    @guest
+      <a class="nav-link active" href="/login">Login</a>
+    @else
+      <a class="nav-link active" href="{{ route('logout') }}"
+        onclick="event.preventDefault();
+        document.getElementById('logout-form').submit();">
+        {{ __('Logout') }}
+      </a>
+      @endguest
+</div>
+  
+  </div>
+  <div class="footer-login-usuario">
+    <div  id="login">
+    @guest
+      <a class="nav-link active" href="/login">Login</a>
+    @else
+      <a class="nav-link active" href="{{ route('logout') }}"
+        onclick="event.preventDefault();
+        document.getElementById('logout-form').submit();">
+        {{ __('Logout') }}
+      </a>
+      @endguest
+    
 
+    </div>
 
-
-
-
-
-
-
+  </div>
+</div>
+</footer>
 </body>
 </html>
