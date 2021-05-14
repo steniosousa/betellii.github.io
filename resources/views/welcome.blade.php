@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Betel II</title>
-    <link rel="shortcut icon" href="https://images.pexels.com/photos/36717/amazing-animal-beautiful-beautifull.jpg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" > <!-- link -->
+    <link rel="shortcut icon" href="{{ asset('/assets/logo.svg') }}" > <!-- link -->
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Cormorant+Unicase:wght@300&family=Tangerine&display=swap" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.gstatic.com">
@@ -89,7 +89,7 @@
                 <a button onclick="coronavirus()" class="nav-link active" aria-current="page" href="#">Coronavírus</a>
               </li>
 
-              
+
 
 
             <form id="logout-form" action="{{ route('logout') }}" method="POST" class="d-none">
@@ -281,7 +281,7 @@
       </a>
       @endguest
 </div>
-  
+
   </div>
   <div class="footer-login-usuario">
     <div  id="login">
@@ -294,7 +294,7 @@
         {{ __('Logout') }}
       </a>
       @endguest
-    
+
 
     </div>
 
